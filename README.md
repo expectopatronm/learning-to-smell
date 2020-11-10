@@ -33,3 +33,5 @@ I’ve decided to take a look at PubChem (since I’ve found the convenient pack
 I used those to find the k-nearest neighbors for each molecule (k=5, since it is expected to provide 5 predictions for each molecule from a test dataset). For test samples with no fingerprint available, I used the 5 most common scents from the train dataset as “default” prediction.
 
 Accuracy of 38% (Top 20)
+
+![](documentation_files/ss.PNG)
